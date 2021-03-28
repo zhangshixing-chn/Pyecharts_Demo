@@ -7,16 +7,11 @@
 
 </head>
 <body>
-    <div id="0da843667be54804be66c9498849ec10" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="47ee2706b7504762b31f177602715d9b" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_0da843667be54804be66c9498849ec10 = echarts.init(
-            document.getElementById('0da843667be54804be66c9498849ec10'), 'white', {renderer: 'canvas'});
-        var option_0da843667be54804be66c9498849ec10 = {
-    "backgroundColor": {
-        "type": "pattern",
-        "image": img,
-        "repeat": "no-repeat"
-    },
+        var chart_47ee2706b7504762b31f177602715d9b = echarts.init(
+            document.getElementById('47ee2706b7504762b31f177602715d9b'), 'white', {renderer: 'canvas'});
+        var option_47ee2706b7504762b31f177602715d9b = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -26,6 +21,7 @@
     "animationEasingUpdate": "cubicOut",
     "animationDelayUpdate": 0,
     "color": [
+        "#c23531",
         "#c23531",
         "#2f4554",
         "#61a0a8",
@@ -57,43 +53,36 @@
             "name": "\u5546\u5bb6A",
             "legendHoverLink": true,
             "data": [
-                89,
-                138,
-                136,
-                138,
-                130,
-                48,
-                107
-            ],
-            "showBackground": false,
-            "barMinHeight": 0,
-            "barCategoryGap": "20%",
-            "barGap": "30%",
-            "large": false,
-            "largeThreshold": 400,
-            "seriesLayoutBy": "column",
-            "datasetIndex": 0,
-            "clip": true,
-            "zlevel": 0,
-            "z": 2,
-            "label": {
-                "show": true,
-                "position": "top",
-                "margin": 8
-            }
-        },
-        {
-            "type": "bar",
-            "name": "\u5546\u5bb6B",
-            "legendHoverLink": true,
-            "data": [
-                84,
-                142,
-                111,
-                92,
-                117,
-                74,
-                140
+                29,
+                28,
+                19,
+                10,
+                10,
+                29,
+                29,
+                17,
+                10,
+                29,
+                15,
+                6,
+                17,
+                20,
+                2,
+                24,
+                17,
+                20,
+                27,
+                7,
+                16,
+                15,
+                7,
+                22,
+                7,
+                3,
+                6,
+                7,
+                7,
+                22
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -116,12 +105,10 @@
     "legend": [
         {
             "data": [
-                "\u5546\u5bb6A",
-                "\u5546\u5bb6B"
+                "\u5546\u5bb6A"
             ],
             "selected": {
-                "\u5546\u5bb6A": true,
-                "\u5546\u5bb6B": true
+                "\u5546\u5bb6A": true
             },
             "show": true,
             "padding": 5,
@@ -169,13 +156,36 @@
                 }
             },
             "data": [
-                "\u5468\u4e00",
-                "\u5468\u4e8c",
-                "\u5468\u4e09",
-                "\u5468\u56db",
-                "\u5468\u4e94",
-                "\u5468\u516d",
-                "\u5468\u65e5"
+                "0\u5929",
+                "1\u5929",
+                "2\u5929",
+                "3\u5929",
+                "4\u5929",
+                "5\u5929",
+                "6\u5929",
+                "7\u5929",
+                "8\u5929",
+                "9\u5929",
+                "10\u5929",
+                "11\u5929",
+                "12\u5929",
+                "13\u5929",
+                "14\u5929",
+                "15\u5929",
+                "16\u5929",
+                "17\u5929",
+                "18\u5929",
+                "19\u5929",
+                "20\u5929",
+                "21\u5929",
+                "22\u5929",
+                "23\u5929",
+                "24\u5929",
+                "25\u5929",
+                "26\u5929",
+                "27\u5929",
+                "28\u5929",
+                "29\u5929"
             ]
         }
     ],
@@ -204,17 +214,23 @@
     ],
     "title": [
         {
-            "text": "Bar-\u80cc\u666f\u56fe\u57fa\u672c\u793a\u4f8b",
-            "subtext": "\u6211\u662f\u526f\u6807\u9898",
+            "text": "Bar-DataZoom\uff08slider-\u5782\u76f4\uff09",
             "padding": 5,
-            "itemGap": 10,
-            "textStyle": {
-                "color": "white"
-            }
+            "itemGap": 10
         }
-    ]
+    ],
+    "dataZoom": {
+        "show": true,
+        "type": "slider",
+        "realtime": true,
+        "start": 20,
+        "end": 80,
+        "orient": "vertical",
+        "zoomLock": false,
+        "filterMode": "filter"
+    }
 };
-        chart_0da843667be54804be66c9498849ec10.setOption(option_0da843667be54804be66c9498849ec10);
+        chart_47ee2706b7504762b31f177602715d9b.setOption(option_47ee2706b7504762b31f177602715d9b);
     </script>
 </body>
 </html>

@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="9ae134e8153c4a129433df20577c2f2e" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="871c85e011534bb5a624574860820b23" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_9ae134e8153c4a129433df20577c2f2e = echarts.init(
-            document.getElementById('9ae134e8153c4a129433df20577c2f2e'), 'white', {renderer: 'canvas'});
-        var option_9ae134e8153c4a129433df20577c2f2e = {
+        var chart_871c85e011534bb5a624574860820b23 = echarts.init(
+            document.getElementById('871c85e011534bb5a624574860820b23'), 'white', {renderer: 'canvas'});
+        var option_871c85e011534bb5a624574860820b23 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -52,12 +52,13 @@
             "name": "\u5546\u5bb6A",
             "legendHoverLink": true,
             "data": [
-                10,
-                20,
-                30,
-                40,
-                50,
-                40
+                79,
+                110,
+                36,
+                129,
+                81,
+                23,
+                132
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -81,12 +82,13 @@
             "name": "\u5546\u5bb6B",
             "legendHoverLink": true,
             "data": [
-                20,
-                10,
-                30,
-                40,
-                60,
-                30
+                132,
+                121,
+                58,
+                111,
+                92,
+                76,
+                99
             ],
             "showBackground": false,
             "barMinHeight": 0,
@@ -147,12 +149,6 @@
             "nameLocation": "end",
             "nameGap": 15,
             "gridIndex": 0,
-            "axisLabel": {
-                "show": true,
-                "position": "top",
-                "rotate": -15,
-                "margin": 8
-            },
             "inverse": false,
             "offset": 0,
             "splitNumber": 5,
@@ -168,12 +164,13 @@
                 }
             },
             "data": [
-                "\u540d\u5b57\u5f88\u957f\u7684X\u8f74\u6807\u7b7e1",
-                "\u540d\u5b57\u5f88\u957f\u7684X\u8f74\u6807\u7b7e2",
-                "\u540d\u5b57\u5f88\u957f\u7684X\u8f74\u6807\u7b7e3",
-                "\u540d\u5b57\u5f88\u957f\u7684X\u8f74\u6807\u7b7e4",
-                "\u540d\u5b57\u5f88\u957f\u7684X\u8f74\u6807\u7b7e5",
-                "\u540d\u5b57\u5f88\u957f\u7684X\u8f74\u6807\u7b7e6"
+                "\u5468\u4e00",
+                "\u5468\u4e8c",
+                "\u5468\u4e09",
+                "\u5468\u56db",
+                "\u5468\u4e94",
+                "\u5468\u516d",
+                "\u5468\u65e5"
             ]
         }
     ],
@@ -184,6 +181,12 @@
             "nameLocation": "end",
             "nameGap": 15,
             "gridIndex": 0,
+            "axisLabel": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{value}/\u6708"
+            },
             "inverse": false,
             "offset": 0,
             "splitNumber": 5,
@@ -202,14 +205,13 @@
     ],
     "title": [
         {
-            "text": "Bar-\u65cb\u8f6cx\u8f74\u6807\u7b7e",
-            "subtext": "\u89e3\u51b3\u6807\u7b7e\u540d\u5b57\u8fc7\u957f\u95ee\u9898",
+            "text": "Bar-Y \u8f74 formatter",
             "padding": 5,
             "itemGap": 10
         }
     ]
 };
-        chart_9ae134e8153c4a129433df20577c2f2e.setOption(option_9ae134e8153c4a129433df20577c2f2e);
+        chart_871c85e011534bb5a624574860820b23.setOption(option_871c85e011534bb5a624574860820b23);
     </script>
 </body>
 </html>
