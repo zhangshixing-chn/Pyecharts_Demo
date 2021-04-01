@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pyecharts.iml" filepath="$PROJECT_DIR$/.idea/pyecharts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Pyecharts_Demo.iml" filepath="$PROJECT_DIR$/.idea/Pyecharts_Demo.iml" />
     </modules>
   </component>
 </project>
